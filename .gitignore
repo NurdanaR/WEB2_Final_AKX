@@ -1,2 +1,11 @@
 /.env
 /node_modules
+# Игнорируем всё
+*
+
+# Разрешаем папку public
+!public/
+!public/**
+
+# Разрешаем сам .gitignore
+!.gitignore
